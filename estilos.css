@@ -6,7 +6,7 @@
     list-style: none;
     font-family: 'Cinzel', serif;
     box-shadow: none;
-    color: black;
+    color: rgba(0, 0, 0, 0.726);
     font-weight: bolder;
     border: 0;
     outline: 0;
@@ -37,9 +37,12 @@
 
 
 .imagenMenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-image: url(img/fondoContacto.jpeg);
-    border: 1px solid black;
-    height: 50vh;
+    border: 1px solid rgba(0, 0, 0, 0.601);
+    height: 80vh;
     padding: 20px;
 }
 
@@ -70,7 +73,7 @@
 }
 
 .nav-link {
-    color: black!important;
+    color: rgba(0, 0, 0, 0.672)!important;
 }
 
 /* DIVISOR */
@@ -125,7 +128,7 @@
     }
 
     .btn-danger {
-        width: 50%;
+        width: 100%;
         font-size: 15px;
     }
 
