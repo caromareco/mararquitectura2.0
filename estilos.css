@@ -40,7 +40,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url(img/fondoContacto.jpeg);
+    background-image: url(img/fondoMenu.jpg);
     border: 1px solid rgba(0, 0, 0, 0.601);
     height: 80vh;
     padding: 20px;
@@ -79,7 +79,7 @@
 /* DIVISOR */
 
 .divisor{
-    background-image: url(img/fondoContacto.jpeg);
+    background-image: url(img/fondoDividor.jpg);
     border: 1px solid black;
     font-weight: bolder;
     text-align: center;
@@ -90,13 +90,35 @@
     font-weight: bolder;  
 }
 
-.titulo2 h2{
+/* NOSOTROS */
+
+.nosotros h2{
     font-weight: bolder;
     text-align: center;
     padding: 20px;
 }
 
+.nosotrosTexto{
+    display: flex;
+}
+
+.nosotrosTexto img{
+    width: 50%;
+    border-radius: 50%;
+}
+
 /* SERVICIOS */
+
+.servicios{
+    display: flex;
+    flex-direction: column;
+}
+
+.servicios h2 {
+    font-weight: bolder;
+    text-align: center;
+    padding: 20px;
+}
 
 .card-group{
     width: 100%;
@@ -110,10 +132,23 @@
     font-weight: bolder; 
     text-align: center;
     font-size: 25px;
+    padding-bottom: 10px;
 }
 
 .card-body{
     text-align: justify;
+}
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-basic {
+    padding-top: 20px;
 }
 
 /* RESPONSIVE */
